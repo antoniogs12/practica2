@@ -4,9 +4,7 @@
 Este proyecto implementa una aproximación recursiva del número π utilizando el método de Montecarlo. La práctica se basa en la implementación previa de la versión iterativa y ahora se transforma en una solución recursiva en Java.
 
 ## Funcionamiento
-El programa genera puntos aleatorios dentro de un cuadrado de lado 1 y cuenta cuántos de ellos caen dentro de un círculo de radio 1. La proporción de puntos dentro del círculo respecto al total de puntos generados se usa para estimar π mediante la fórmula:
-
-\[ \pi \approx 4 \times \frac{aciertos}{total\_puntos} \]
+El programa genera puntos aleatorios dentro de un cuadrado de lado 1 y cuenta cuántos de ellos caen dentro de un círculo de radio 1. La proporción de puntos dentro del círculo respecto al total de puntos generados se usa para estimar π mediante la fórmula
 
 El proceso se realiza de manera recursiva, reduciendo el número de pasos hasta alcanzar el caso base.
 
